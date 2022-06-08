@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"><!--Adicionados essas duas tags, Bulma e fontawesome, linhas 7, 8-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+              </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active"><!--o is-active deixou  as ancoras inicio e contato responsivos quando em telas pequenas-->
+                <div class="navbar-start">
+                  <a class="navbar-item" href="index.html">
+                    Início
+                  </a>
+                  <a class="navbar-item" href="contato.html">
+                    Contato
+                  </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section"><!--Criação da section principal, seguida da div container e da div columns, seguidas das divs column, aqui inicia-se a divisão da parte principal do site e princípio da responsividade-->
+        <div class="container">
+            <div class="columns">
+                <div class="column"><!--Divisão 1-->
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                            <img src="img/IMG_20220527_193737.jpg" alt="image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Elisandro Pereira</p>
+                                    <span class="tag is-dark">JAVASCRIPT FULL STACK DEVELOPER</span><!--tag is dark fez o envelopamento do nome -->
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>(85)99674-8098</p>
+                                <p>ellysandro@yahoo.com.br</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9"><!--column is-9 dividiu a tela em 3 partes iguais para o lado direito e deixou uma para o lado esquerdo-->
+                    <div class="card">
+                        <header class="card-header">
+                        <p class="card-header-title">
+                            Sobre mim
+                        </p>
+                        </header>
+                        <div class="card-content">
+                        <div class="content">
+                            <p>Servidor público do Estado do Ceará, área da segurança pública, esposo, pai, instrutor de capoeira, 41 anos, concursado e concurseiro...
+                                "Homem simples, como qualquer outro, como qualquer um", porém, acredito na força do trabalho e no poder da educação.
+                                Em constante evolução, <strong>"Não nos pergunte do que somos capazes, dei-nos a missão!"</strong>
+                                </p>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <header class="card-header">
+                        <p class="card-header-title">
+                            Experiências
+                        </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">
+                                    <div>
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="img/1.jpeg">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <span class="title is-6">Full Stack Javascrit Developer</span> <span class="tag is-dark">Empresa X</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse a ea, voluptate possimus quisquam commodi fuga dolorum sed suscipit corrupti. Vero voluptas eaque repellat ad illo sed temporibus nam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">
+                                    <div>
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="img/3.jpeg">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <span class="title is-6">Full Stack Developer</span> <span class="tag is-dark">Empresa X</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse a ea, voluptate possimus quisquam commodi fuga dolorum sed suscipit corrupti. Vero voluptas eaque repellat ad illo sed temporibus nam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                <div class="card">
+                    <header class="card-header">
+                    <p class="card-header-title">
+                        Formação
+                    </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                                <p>
+                                    Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>-UNICESUMAR-2022.
+                                </p>
+                                <strong>
+                                    <p>
+                                        CURSOS PROFISSIONALIZANTES E TREINAMENTOS:
+                                    </p>
+                                </strong>
+                                <ul style="list-style:disc; margin-left: 40px;">
+                                    <li><strong>Programador Full Stack Javascrit(Onebitcode)</strong></li>
+                                    <li>Microinformática (RC INFORMÁTICA).</li>
+                                    <li>Primeiros Socorros/Combate a Incêndios (CORPO DE BOMBEIROS CE).</li>
+                                    <li>E.S.M.S (Educação, Segurança, Meio Ambiente e Saúde) SENAI-RN.</li>
+                                    <li>Introdução à Lógica de Programação (LEAD/DELL/ UECE)</li>
+                                    <li>Introdução à Lógica de Programação (LEAD/DELL/ UECE)</li>
+                                    <li>Introdução à Acessibilidade na Web (LEAD/DELL/ UECE)</li>
+                                    <li>Desenvolvimento de Sites – HTML e CSS (LEAD/DELL/ UECE)</li>
+                                    <li>BOOTCAMP TAKE BLIP WEB DEVELOPER/DIO, 23 CURSOS DE 29.</li>
+                                    <li>Linux 40h (Curso em vídeo Prof. Gustavo Guanabara)</li>
+                                    <li>Python mundo 1, 40h (Curso em vídeo Prof. Gustavo Guanabara)</li>
+                                    <li>Python mundo 2, 40h (Curso em vídeo Prof. Gustavo Guanabara)</li>
+                                    <li>Python mundo 3, 40h, 60% em curso (Curso em vídeo Prof. Gustavo Guanabara)</li>
+                                    <li>Curso HTML5 e CSS3, módulo 1 de 5, 40h (Curso em vídeo Prof. Gustavo Guanabara)</li>
+                                    <li>Inglês Básico 1 com ênfase em Tecnologia da Informação (LEAD/DELL/ UECE)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/elisandro-p-silva-b83311231/" target="_blank" class="externo">Reproduzido por Elisandro Pereira.&#x1F919; &#x1F60E;2022.&COPY;</a>
+    </footer>
+</body>
+</html>

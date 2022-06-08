@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"><!--Adicionados essas duas tags, Bulma e fontawesome, linhas 7, 8-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>contato</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+              </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active"><!--o is-active deixou  as ancoras inicio e contato responsivos quando em telas pequenas-->
+                <div class="navbar-start">
+                  <a class="navbar-item" href="index.html">
+                    Início
+                  </a>
+                  <a class="navbar-item" href="contato.html">
+                    Contato
+                  </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section"><!--Criação da section principal, seguida da div container e da div columns, seguidas das divs column, aqui inicia-se a divisão da parte principal do site e princípio da responsividade-->
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                            <img src="img/IMG_20220527_193737.jpg" alt="image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Elisandro Pereira</p>
+                                    <span class="tag is-dark">Javascript Full Stacker Developer</span><!--tag is dark fez o envelopamento do nome -->
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>(85)99674-8098</p>
+                                <p>ellysandro@yahoo.com.br</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9"><!--column is-9 dividiu a tela em 3 partes iguais para o lado direito e deixou uma para o lado esquerdo-->
+                    <div class="card">
+                        <header class="card-header">
+                        <p class="card-header-title">
+                            Contato
+                        </p>
+                        </header>
+                        <div class="card-content">
+                        <div class="content">
+
+                            <div class="field">
+                                <label class="label">E-mail</label>
+                                <div class="control">
+                                  <input class="input" type="email" placeholder="exemplodeemail@gmail.com">
+                                </div>
+                              </div>
+
+                              <div class="field">
+                                <label class="label">Mensagem</label>
+                                <div class="control">
+                                  <textarea class="textarea" placeholder="Digite sue texto aqui" minlength="3" required></textarea>
+                                </div>
+                              </div>
+
+                              <div class="field is-grouped">
+                                <div class="control">
+                                  <button class="button is-link">Enviar</button>
+                                </div>
+                                <div class="control">
+                                  <button class="button is-link is-light">Cancelar</button>
+                                </div>
+                              </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/elisandro-p-silva-b83311231/" target="_blank" class="externo">Reproduzido por Elisandro Pereira.&#x1F919; &#x1F60E;2022.&COPY;</a>
+    </footer>
+</body>
+</html>
