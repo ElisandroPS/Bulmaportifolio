@@ -14,3 +14,5 @@ li>strong{color:red}
 footer{background:#0000ff;text-align:center;min-height:50px;width:100%;padding:10px 0}
 footer a{color:white;font-weight:600}
 footer a:hover{background:white;color:#0000ff;border-radius:15px;padding:2px}
+
+.language-switch a{display:inline-flex;align-items:center;gap:.45rem}.language-flag{width:28px;height:20px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px #0002;flex-shrink:0}
