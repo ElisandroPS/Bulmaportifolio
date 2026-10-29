@@ -1,96 +1,16 @@
 @charset "UTF-8";
-
-
-body{
-    background-image: linear-gradient(to top, #b0b9ffd8, #95b3e8d7, #a3ddffd7);
-}
- 
-.navbar{
-    background-color: #0000ff;
-}
-
-
-
-.navbar-brand:hover{
-    background-color: #ffffff;
-   
-}
-
-
-.navbar-start .navbar-item{
-    background-color: #0000ff;
-    color: #ffffff;
-    font-weight: 600;
-
-}
-
-
-.navbar-start .navbar-item:hover{
-    background-color: #ffffff;
-    text-decoration: underline;
-    border-radius: 10px;
-
-}
-
-
-
-.card:hover{
-
-    box-shadow: 10px 10px 10px black;
-}
-
-
-
-
-.card .card-header .card-header-title{
-    background-color: #0000ff;
-    color: #ffffff;
-}
-
-.card-content{
-    background-position: right;
-    background-repeat: no-repeat;
-    line
-}
-
-
-.pontos >li{
-    list-style: none;
-}
-
-
-li > a{
-    color:red;
-    font-weight: 700;
-    
-}
-
-
-li > strong{
-    color: red;
-}
-
-
-footer{
-    background-color: #0000ff;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    padding: 10px 0px;
-}
-
-
-
-footer a{
-    color: white;
-    font-weight: 600;   
-}
-
-
-
-footer a:hover{
-    background-color: #ffffff;
-    color: #0000ff;
-    border-radius: 15px;
-    padding: 2px;
-}
+body{min-height:100vh;background-image:linear-gradient(to top,#b0b9ffd8,#95b3e8d7,#a3ddffd7)}
+.navbar,.navbar-start .navbar-item{background-color:#0000ff}
+.navbar-start .navbar-item{color:#fff;font-weight:600}
+.navbar-start .navbar-item:hover,.navbar-start .navbar-item:focus-visible{background:#fff;color:#0000ff;text-decoration:underline;border-radius:10px}
+.card{transition:box-shadow .2s}
+.card:hover{box-shadow:10px 10px 10px #000}
+.card .card-header .card-header-title{background:#0000ff;color:#fff}
+.card-content{background-position:right;background-repeat:no-repeat}
+.pontos>li{list-style:none;margin-bottom:1rem}
+.pontos a{display:inline-flex;align-items:center;gap:.75rem;color:#b00020;font-weight:700;overflow-wrap:anywhere}
+.pontos img{width:30px;height:30px;object-fit:contain}
+li>strong{color:red}
+footer{background:#0000ff;text-align:center;min-height:50px;width:100%;padding:10px 0}
+footer a{color:white;font-weight:600}
+footer a:hover{background:white;color:#0000ff;border-radius:15px;padding:2px}

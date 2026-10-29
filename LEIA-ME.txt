@@ -1,0 +1,9 @@
+INSTALAÇÃO
+Faça backup dos arquivos atuais e envie index.html, contato.html, style.css e language.js para a mesma pasta na hospedagem.
+Mantenha sua pasta img original: as imagens não foram enviadas e não estão incluídas.
+Arquivos esperados: IMG_20220527_193737.jpg, 4.jpg, codepen.png, linkedin.jpg, github-30x30.png e INSTA.jpg.
+Teste index.html?lang=pt, index.html?lang=en e a navegação para Contato nos dois idiomas.
+A preferência é lembrada quando o navegador permite armazenamento local. A tradução depende de JavaScript; sem ele o conteúdo aparece em português.
+Dados pessoais, idade, cursos e perfis sociais foram mantidos conforme o material enviado. Revise antes de publicar.
+A versão inglesa usa a mesma página com parâmetro de idioma; não são páginas independentes para SEO.
+Bulma é carregado pelo CDN e requer internet. As imagens originais não puderam ser conferidas visualmente.

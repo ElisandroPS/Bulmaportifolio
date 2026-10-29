@@ -1,135 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"><!--Adicionados essas duas tags, Bulma e fontawesome, linhas 7, 8-->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Perfil de Elisandro Pereira: formação, cibersegurança e desenvolvimento de sistemas.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Elisandro Pereira | Perfil profissional</title>
+<style>
+.language-switch{display:flex;gap:.4rem;align-items:center;padding:.5rem .75rem;flex-wrap:wrap} .language-switch a{border:1px solid #767676;border-radius:4px;padding:.35rem .65rem;color:#252525;background:white} .language-switch a[aria-current="true"]{background:#252525;color:white} a:focus-visible{outline:3px solid #3273dc;outline-offset:3px} .profile-contact{overflow-wrap:anywhere} .training-list{list-style:disc;margin-left:1.5rem} .training-list li{margin-bottom:.55rem} .profile-footer{text-align:center;padding:1.5rem} .navbar-menu.is-active{display:flex;flex-wrap:wrap;justify-content:space-between} .navbar-start{display:flex;flex-wrap:wrap} .profile-heading{margin-bottom:1rem} .profile-card{margin-bottom:1.5rem} @media(max-width:768px){.section{padding:1.5rem 1rem}}
+</style>
 </head>
 <body>
-    <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-            </div>
-            <div id="navbarBasicExample" class="navbar-menu is-active"><!--o is-active deixou  as ancoras inicio e contato responsivos quando em telas pequenas-->
-                <div class="navbar-start">
-                <a class="navbar-item" href="index.html">
-                    Início
-                </a>
-                <a class="navbar-item" href="contato.html">
-                    Contato
-                </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="section"><!--Criação da section principal, seguida da div container e da div columns, seguidas das divs column, aqui inicia-se a divisão da parte principal do site e princípio da responsividade-->
-        <div class="container">
-            <div class="columns">
-                <div class="column"><!--Divisão 1-->
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                            <img src="img/IMG_20220527_193737.jpg" alt="image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Elisandro Pereira</p>
-                                    <span class="tag is-dark">CYBERSECURITY | ETHICAL HACKER</span><!--tag is dark fez o envelopamento do nome -->
-                                </div>
-                            </div>
-                            <div class="content"><!--Aqui vamos usar o what´s app sem uso de plugin -->
-                                <p><a href="https://api.whatsapp.com/send?phone=5585996748098&text=Olá, gostaria de tirar umas dúvidas com você sobre a produção de websites!"
-                                    target="_blank" rel="noopener">(85)99674-8098 
-                                    <svg enable-background="new 0 0 512 512" width="20" height="20" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#4CAF50"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
-                                </a></p>
-                                <p><strong>ellysandro@yahoo.com.br</strong></p>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-9"><!--column is-9 dividiu a tela em 3 partes iguais para o lado direito e deixou uma para o lado esquerdo-->
-                    <div class="card">
-                        <header class="card-header">
-                        <p class="card-header-title">
-                            Sobre mim
-                        </p>
-                        </header>
-                        <div class="card-content">
-                        <div class="content">
-                            <p>Servidor público do Estado do Ceará, esposo, pai, professor de capoeira, 44 anos, concursado e concurseiro...
-                                "Homem simples, como qualquer outro, como qualquer um", porém, acredito na força do trabalho e no poder da educação.
-                                Em constante evolução, <strong>"Não nos pergunte do que somos capazes, dei-nos a missão!"</strong>
-                                </p>
-                        </div>
-                        </div>
-                    </div>
-                    <br>
-                <div class="card">
-                    <header class="card-header">
-                    <p class="card-header-title">
-                        Formação
-                    </p>
-                    </header>
-                    <div class="card-content">
-                        <div class="content">
-                                <p>
-                                    Pós-Graduando em <strong>Inteligência de Estado e Inteligência Policial</strong>-GRANCURSOS-2024.
-                                </p>
-                                <p>
-                                    Pós-Graduado em <strong>Investigação Forense e Perícia Criminal</strong>-UNIASSELVI-2023.
-                                </p>
-                                <p>
-                                    Pós-Graduado em <strong>Gestão em Tecnologia</strong>-UNIASSELVI-2022.
-                                </p>
-                                <p>
-                                    Pós-Graduado em <strong>Gestão da Segurança Pública</strong>-UNIASSELVI-2022.
-                                </p>
-                                <p>
-                                    Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>-UNICESUMAR-2022.
-                                </p>
-                                <strong>
-                                    <p>
-                                        CURSOS PROFISSIONALIZANTES E TREINAMENTOS:
-                                    </p>
-                                </strong>
-                                <ul style="list-style:disc; margin-left: 40px;">
-                                    <li>Introduction to Cybersecurity, 6h, CISCO/Networking Academy</li>
-                                    <li>Networking Basics, 22h, CISCO/Networking Academy</li>
-                                    <li>BOOTCAMP CIBERSEGURANÇA, 40h, RIACHUELO/DIO;</li>
-                                    <li><strong>Formação em Cibersegurança-Nivelamento, 80h, (PROGRAMA FEDERAL HACKERS DO BEM);</strong></li>
-                                    <li><strong>Formação em Cibersegurança-Básico, 64h, (PROGRAMA FEDERAL HACKERS DO BEM);</strong></li>
-                                    <li>Perito Forense Digital, 8h, (AFD- Academia de Forense Digital)</li>
-                                    <li>Curso Introdução ao Hacking e Pentest 2.0, 8h, (solyd.com.br)</li>
-                                    <li>Curso de Introdução ao Pentest na Prática, 2h-DESEC-INFORMATION SECURITY</li>
-                                    <li>Curso Análise de Malware Starter, 8h, (AFD Academia de Forense Digital)</li>
-                                    <li>Curso Fundamentos de Cibersegurança, 4h, (AFD Academia de Forense Digital)</li>
-                                    <li><strong>Programador Full Stack Javascript (Onebitcode) 51% em curso;</strong></li>
-                                    <li>Introdução à Lógica de Programação (LEAD/DELL/ UECE);</li>
-                                    <li>Introdução à Acessibilidade na Web (LEAD/DELL/ UECE);</li>
-                                    <li>Desenvolvimento de Sites – HTML e CSS (LEAD/DELL/ UECE);</li>
-                                    <li>Linux 40h (Curso em vídeo Prof. Gustavo Guanabara);</li>
-                                    <li>Python mundo 1, 40h (Curso em vídeo Prof. Gustavo Guanabara);</li>
-                                    <li>Python mundo 2, 40h (Curso em vídeo Prof. Gustavo Guanabara);</li>
-                                    <li>Python mundo 3, 40h, 60% em curso (Curso em vídeo Prof. Gustavo Guanabara);</li>
-                                    <li>Curso de Algoritmo, 40h, 22% em curso(Curso em vídeo Prof. Gustavo Guanabara);</li>
-                                    <li>Inglês Básico 1 com ênfase em Tecnologia da Informação (LEAD/DELL/ UECE);</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-    <a href="https://www.linkedin.com/in/elisandro-p-silva-b83311231/" target="_blank" class="externo" rel="noopener">Developed by Elisandro Pereira.&#x1F919; &#x1F60E;2022.&COPY;</a>
-    </footer>
-</body>
-</html>
+<header><nav class="navbar" aria-label="Navegação principal" id="main-nav"><div class="navbar-menu is-active"><div class="navbar-start"><a class="navbar-item" id="home-link" href="index.html?lang=pt"><span data-i18n="home">Início</span></a><a class="navbar-item" id="contact-link" href="contato.html?lang=pt"><span data-i18n="contact">Contato</span></a></div><div class="language-switch" aria-label="Idioma / Language"><a href="?lang=pt" data-language="pt" lang="pt-BR" aria-current="true">Português</a><a href="?lang=en" data-language="en" lang="en" aria-current="false">English</a></div></div></nav></header>
+<main class="section"><div class="container"><div class="columns"><aside class="column is-3"><div class="card"><div class="card-image"><figure class="image is-4by3"><img id="profile-photo" src="img/IMG_20220527_193737.jpg" alt="Foto de Elisandro Pereira"></figure></div><div class="card-content"><h1 class="title is-4 profile-heading">Elisandro Pereira</h1><span class="tag is-dark">CYBERSECURITY | ETHICAL HACKER</span><div class="content profile-contact" style="margin-top:1rem"><p><a id="whatsapp-link" href="https://wa.me/5585996748098" target="_blank" rel="noopener noreferrer">WhatsApp: +55 (85) 99674-8098</a></p><p><a href="mailto:ellysandro@yahoo.com.br">ellysandro@yahoo.com.br</a></p></div></div></div></aside>
+<div class="column is-9"><section class="card profile-card" aria-labelledby="about-heading"><header class="card-header"><h2 id="about-heading" class="card-header-title"><span data-i18n="about">Sobre mim</span></h2></header><div class="card-content"><div class="content"><p><span data-i18n="bio">Servidor público do Estado do Ceará, esposo, pai, professor de capoeira, 44 anos, concursado e concurseiro... “Homem simples, como qualquer outro, como qualquer um”, porém acredito na força do trabalho e no poder da educação. Em constante evolução.</span></p><p><strong><span data-i18n="quote">“Não nos pergunte do que somos capazes, dê-nos a missão!”</span></strong></p></div></div></section><section class="card" aria-labelledby="education-heading"><header class="card-header"><h2 id="education-heading" class="card-header-title"><span data-i18n="education">Formação</span></h2></header><div class="card-content"><div class="content"><p><span data-i18n="degree0">Pós-graduando em</span> <strong><span data-i18n="subject0">Inteligência de Estado e Inteligência Policial</span></strong> — GRANCURSOS, 2024.</p><p><span data-i18n="degree1">Pós-graduado em</span> <strong><span data-i18n="subject1">Investigação Forense e Perícia Criminal</span></strong> — UNIASSELVI, 2023.</p><p><span data-i18n="degree2">Pós-graduado em</span> <strong><span data-i18n="subject2">Gestão em Tecnologia</span></strong> — UNIASSELVI, 2022.</p><p><span data-i18n="degree3">Pós-graduado em</span> <strong><span data-i18n="subject3">Gestão da Segurança Pública</span></strong> — UNIASSELVI, 2022.</p><p><span data-i18n="degree4">Graduado em</span> <strong><span data-i18n="subject4">Análise e Desenvolvimento de Sistemas</span></strong> — UNICESUMAR, 2022.</p><h3 class="is-size-6"><span data-i18n="training">Cursos profissionalizantes e treinamentos</span></h3><ul class="training-list"><li><span data-i18n="course0">Introduction to Cybersecurity, 6h — Cisco Networking Academy</span></li><li><span data-i18n="course1">Networking Basics, 22h — Cisco Networking Academy</span></li><li><span data-i18n="course2">Bootcamp Cibersegurança, 40h — Riachuelo/DIO</span></li><li><span data-i18n="course3">Formação em Cibersegurança — Nivelamento, 80h — Programa Federal Hackers do Bem</span></li><li><span data-i18n="course4">Formação em Cibersegurança — Básico, 64h — Programa Federal Hackers do Bem</span></li><li><span data-i18n="course5">Perito Forense Digital, 8h — AFD, Academia de Forense Digital</span></li><li><span data-i18n="course6">Introdução ao Hacking e Pentest 2.0, 8h — Solyd</span></li><li><span data-i18n="course7">Introdução ao Pentest na Prática, 2h — DESEC Information Security</span></li><li><span data-i18n="course8">Análise de Malware Starter, 8h — AFD, Academia de Forense Digital</span></li><li><span data-i18n="course9">Fundamentos de Cibersegurança, 4h — AFD, Academia de Forense Digital</span></li><li><span data-i18n="course10">Programador Full Stack JavaScript — Onebitcode — em andamento (51% concluído)</span></li><li><span data-i18n="course11">Introdução à Lógica de Programação — LEAD/Dell/UECE</span></li><li><span data-i18n="course12">Introdução à Acessibilidade na Web — LEAD/Dell/UECE</span></li><li><span data-i18n="course13">Desenvolvimento de Sites — HTML e CSS — LEAD/Dell/UECE</span></li><li><span data-i18n="course14">Linux, 40h — Curso em Vídeo, Prof. Gustavo Guanabara</span></li><li><span data-i18n="course15">Python Mundo 1, 40h — Curso em Vídeo, Prof. Gustavo Guanabara</span></li><li><span data-i18n="course16">Python Mundo 2, 40h — Curso em Vídeo, Prof. Gustavo Guanabara</span></li><li><span data-i18n="course17">Python Mundo 3, 40h — em andamento (60% concluído) — Curso em Vídeo, Prof. Gustavo Guanabara</span></li><li><span data-i18n="course18">Algoritmos, 40h — em andamento (22% concluído) — Curso em Vídeo, Prof. Gustavo Guanabara</span></li><li><span data-i18n="course19">Inglês Básico 1 com ênfase em Tecnologia da Informação — LEAD/Dell/UECE</span></li></ul></div></div></section></div></div></div></main>
+<footer class="profile-footer"><a href="https://www.linkedin.com/in/elisandro-p-silva-b83311231/" target="_blank" rel="noopener noreferrer"><span data-i18n="footer">Desenvolvido por Elisandro Pereira. 🤙 😎 © 2022.</span></a></footer>
+<script src="language.js" defer></script>
+</body></html>
